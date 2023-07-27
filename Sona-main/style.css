@@ -1,0 +1,146 @@
+body{
+    background-color: #9FB681;
+}
+.logo{
+    margin-top: 10px;
+    width: auto;
+    height: 200px;
+    
+}
+
+.titul1{
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.major{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.baba{
+    text-decoration:none;
+}
+.logi{
+    display: flex;
+}
+.qwe{
+    margin-top: 0px;
+}
+
+.SD{
+    font-size: 85px;
+}
+
+.discr{
+    
+    font-size: 45px;
+    
+}
+.HCIAAT{
+    margin-right: -25px;
+    background-color: #3f5226;
+    margin-left: -25px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.input{
+    align-items: center;
+   background-color: #7d9958;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+#inp{
+    height: 70%;
+    border-radius: 10px;
+    color: white;
+    background-color: #ffffff;
+    width: 25%;
+}
+.same{
+    padding-left: 15px;
+}
+.sub1{
+    height: 80%;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 66%;
+    width: 100px;
+    background-color: #3f5226;
+}
+.plyus{
+    height: 80%;
+    border-radius: 50%;
+    margin-left:40px;
+    background-color:#7d9958;
+}
+.topic{
+    font-size: 30px;
+}
+.add{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub2{
+    margin-top: 15px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 66%;
+    width: 150px;
+    background-color: #3f5226;
+}
+
+
+.btn-popup {
+    margin-bottom: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: #3f5226;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-popup:focus ~ .register-form {
+    visibility: visible;
+}
+
+.register-form {
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 400px;
+    border: 1px solid;
+    height: 400px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.register-form .btn-register {
+    
+    width: 100%;
+    padding: 10px;
+    background-color: #23eba8;
+    border: 1px solid black;
+    color: #fff;
+    font-weight: 600;
+}

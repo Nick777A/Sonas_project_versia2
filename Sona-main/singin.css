@@ -1,0 +1,74 @@
+body{
+    background-color: beige;
+}
+.SD{
+    text-decoration:none;
+    
+    font-size: 85px;
+}
+
+.major{
+    position: absolute;
+    margin-top: 5%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.major2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.titul1{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-top: 10px;
+    width: auto;
+    height: 200px;
+    
+}
+
+
+.inp1{
+    width:15%;
+    height: 23px;
+    margin-bottom: 10px;
+}
+.inp2{
+    width:15%;
+    height: 23px;
+    margin-bottom: 15px;
+}
+.inp3{
+    width:15%;
+    height: 23px;
+    margin-bottom: 15px;
+}
+.inp4{
+    width:15%;
+    height: 23px;
+    margin-bottom: 15px;
+}
+.btn-register{
+    background-color: rgb(241, 226, 207);
+    width: 5%;
+    height:35px ;
+}
+.singin{
+    font-size: 15px;
+    
+    margin-bottom: 5px;
+}
+
+.login{
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
